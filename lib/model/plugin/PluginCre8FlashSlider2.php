@@ -17,7 +17,7 @@ class PluginCre8FlashSlider2 extends BaseCre8FlashSlider2
   public function save(PropelPDO $con = null)
   {
     $ret = parent::save($con);
-    Cre8FlashSlide2rXMLGenerator::updateAndSave();
+    Cre8FlashSlider2XMLGenerator::updateAndSave();
     return $ret;
   }
   
